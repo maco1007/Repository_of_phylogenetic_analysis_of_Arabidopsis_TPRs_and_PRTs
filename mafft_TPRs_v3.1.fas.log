@@ -1,0 +1,378 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    pc (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -s mafft_TPRs_v3.1.fas -m MFP -bb 1000 -nt AUTO
+Seed:    627653 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jul  3 14:17:28 2026
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file mafft_TPRs_v3.1.fas ... Fasta format detected
+Reading fasta file: done in 0.0117278 secs using 77.7% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00661087 secs using 586.1% CPU
+Alignment has 74 sequences with 1397 columns, 1223 distinct patterns
+815 parsimony-informative, 195 singleton sites, 387 constant sites
+WARNING: Some sequence names are changed as follows:
+30171.m000412|R._communis_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> 30171.m000412|R._communis__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Cucsa.073040.1|C._sativus_[TPR_repeat_11] -> Cucsa.073040.1|C._sativus__TPR_repeat_11_
+Thhalv10012633m|E._salsugineum_[TPR_repeat_8_|TPR_repeat_11] -> Thhalv10012633m|E._salsugineum__TPR_repeat_8_|TPR_repeat_11_
+Lus10030019|L._usitatissimum_[TPR_repeat_11] -> Lus10030019|L._usitatissimum__TPR_repeat_11_
+Lus10035305|L._usitatissimum_[TPR_repeat_11] -> Lus10035305|L._usitatissimum__TPR_repeat_11_
+Thecc1EG033455t1|T._cacao_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Thecc1EG033455t1|T._cacao__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Migut.N00455.1|M._guttatus_[TPR_repeat_11] -> Migut.N00455.1|M._guttatus__TPR_repeat_11_
+Bostr.2618s0063.1|B._stricta_[TPR_repeat_8_|TPR_repeat_11] -> Bostr.2618s0063.1|B._stricta__TPR_repeat_8_|TPR_repeat_11_
+Medtr3g098060.1|M._truncatula_[TPR_repeat_11] -> Medtr3g098060.1|M._truncatula__TPR_repeat_11_
+evm_27.model.AmTr_scaffold00041.101|A._trichopoda_[TPR_repeat_11] -> evm_27.model.AmTr_scaffold00041.101|A._trichopoda__TPR_repeat_11_
+Traes_4AS_E52C5D2A7.3|T._aestivum_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Traes_4AS_E52C5D2A7.3|T._aestivum__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Traes_4BL_FE7B24AD71.4|T._aestivum_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Traes_4BL_FE7B24AD71.4|T._aestivum__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Traes_4DL_0908335AA.1|T._aestivum_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Traes_4DL_0908335AA.1|T._aestivum__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Traes_7BL_4AFB62A41.2|T._aestivum_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Traes_7BL_4AFB62A41.2|T._aestivum__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Eucgr.H05055.1|E._grandis_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Eucgr.H05055.1|E._grandis__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Prupe.2G030300.1|P._persica_[TPR_repeat_11] -> Prupe.2G030300.1|P._persica__TPR_repeat_11_
+Manes.10G067100.1|M._esculenta_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Manes.10G067100.1|M._esculenta__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Seita.2G124700.1|S._italica_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Seita.2G124700.1|S._italica__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Bradi1g28660.1|B._distachyon_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Bradi1g28660.1|B._distachyon__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Pp3c1_12830V3.1|P._patens_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Pp3c1_12830V3.1|P._patens__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Aco024438.1|A._comosus_v3_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Aco024438.1|A._comosus_v3__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Aqcoe7G009700.1|A._coerulea_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Aqcoe7G009700.1|A._coerulea__Uncharacterized_conserved_protein_contains_TPR_repeats_
+LOC_Os07g27180.1|O._sativa_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> LOC_Os07g27180.1|O._sativa__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Kaladp0047s0180.1|K._fedtschenkoi_[TPR_repeat_11] -> Kaladp0047s0180.1|K._fedtschenkoi__TPR_repeat_11_
+AL6G28350.t1|A._lyrata_[TPR_repeat_8_|TPR_repeat_11] -> AL6G28350.t1|A._lyrata__TPR_repeat_8_|TPR_repeat_11_
+AL6G28330.t1|A._lyrata_[TPR_repeat_11] -> AL6G28330.t1|A._lyrata__TPR_repeat_11_
+Tp57577_TGAC_v2_mRNA8069|T._pratense_v2_[TPR_repeat_11] -> Tp57577_TGAC_v2_mRNA8069|T._pratense_v2__TPR_repeat_11_
+Oropetium_20150105_13218A|O._thomaeum_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Oropetium_20150105_13218A|O._thomaeum__Uncharacterized_conserved_protein_contains_TPR_repeats_
+DCAR_009033|D._carota_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> DCAR_009033|D._carota__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Bol034441|B._oleraceacapitata_[TPR_repeat_11] -> Bol034441|B._oleraceacapitata__TPR_repeat_11_
+Bol019814|B._oleraceacapitata_[TPR_repeat_8_|TPR_repeat_11] -> Bol019814|B._oleraceacapitata__TPR_repeat_8_|TPR_repeat_11_
+AT5G17270.1|A._thaliana_Araport11_[TPR_repeat_8|TPR_repeat_11] -> AT5G17270.1|A._thaliana_Araport11__TPR_repeat_8|TPR_repeat_11_
+AT5G37130.1|A._thaliana_Araport11_[TPR_repeat_11] -> AT5G37130.1|A._thaliana_Araport11__TPR_repeat_11_
+Oeu006040.1|O._europaea_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Oeu006040.1|O._europaea__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Sobic.002G126800.1|S._bicolor.1_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Sobic.002G126800.1|S._bicolor.1__Uncharacterized_conserved_protein_contains_TPR_repeats_
+VIT_207s0130g00120.1|V._vinifera_[TPR_repeat_11] -> VIT_207s0130g00120.1|V._vinifera__TPR_repeat_11_
+HORVU4Hr1G052640.5|H._vulgare_r1_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> HORVU4Hr1G052640.5|H._vulgare_r1__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Lsat_1_v5_gn_3_54960.1|L._sativa_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Lsat_1_v5_gn_3_54960.1|L._sativa__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Carub.0006s1546.1|C._rubella_[TPR_repeat_8|TPR_repeat_11] -> Carub.0006s1546.1|C._rubella__TPR_repeat_8|TPR_repeat_11_
+Ca_04261|C._arietinum_[TPR_repeat_11] -> Ca_04261|C._arietinum__TPR_repeat_11_
+Zm00001d005403_T001|Z._mays_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Zm00001d005403_T001|Z._mays__Uncharacterized_conserved_protein_contains_TPR_repeats_
+HanXRQChr15g0484541|H._annuus_r1.2_[TPR_repeat_11] -> HanXRQChr15g0484541|H._annuus_r1.2__TPR_repeat_11_
+Misin03G108500.1|M._sinensis_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Misin03G108500.1|M._sinensis__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Misin04G120600.1|M._sinensis_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Misin04G120600.1|M._sinensis__Uncharacterized_conserved_protein_contains_TPR_repeats_
+evm.model.AsparagusV1_09.1487|A._officinalis_V1.1_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> evm.model.AsparagusV1_09.1487|A._officinalis_V1.1__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Dioal.0082s0003.1|D._alata_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Dioal.0082s0003.1|D._alata__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Cocit.F0485.1|C._citriodora_[TPR_repeat_11] -> Cocit.F0485.1|C._citriodora__TPR_repeat_11_
+GlysoPI483463.04G164000.1|G._soja_[TPR_repeat_11] -> GlysoPI483463.04G164000.1|G._soja__TPR_repeat_11_
+Pavir.2KG234200.4|P._virgatum_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Pavir.2KG234200.4|P._virgatum__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Sapur.004G056600.1|S._purpurea_[Uncharacterized|TPR_repeat_protein_27] -> Sapur.004G056600.1|S._purpurea__Uncharacterized|TPR_repeat_protein_27_
+Gobar.A01G100300.1|G._barbadense_[TPR_repeat_11] -> Gobar.A01G100300.1|G._barbadense__TPR_repeat_11_
+Gobar.D01G103800.1|G._barbadense_[TPR_repeat_11] -> Gobar.D01G103800.1|G._barbadense__TPR_repeat_11_
+arahy.Tifrunner.gnm1.ann1.4S33SI.1|A._hypogaea_[Uncharacterized|TPR_repeat_protein_27] -> arahy.Tifrunner.gnm1.ann1.4S33SI.1|A._hypogaea__Uncharacterized|TPR_repeat_protein_27_
+arahy.Tifrunner.gnm1.ann1.RUK03S.1|A._hypogaea_[Uncharacterized|TPR_repeat_protein_27] -> arahy.Tifrunner.gnm1.ann1.RUK03S.1|A._hypogaea__Uncharacterized|TPR_repeat_protein_27_
+Potri.004G080800.1|P._trichocarpa_[Uncharacterized|TPR_repeat_protein_27] -> Potri.004G080800.1|P._trichocarpa__Uncharacterized|TPR_repeat_protein_27_
+Vigun09g112500.1|V._unguiculata_[TPR_repeat_11] -> Vigun09g112500.1|V._unguiculata__TPR_repeat_11_
+Vigun09g039000.1|V._unguiculata_[Uncharacterized|TPR_repeat_protein_27] -> Vigun09g039000.1|V._unguiculata__Uncharacterized|TPR_repeat_protein_27_
+EL10Ac8g19353.1|B._vulgaris_[TPR_repeat_11] -> EL10Ac8g19353.1|B._vulgaris__TPR_repeat_11_
+Ptrif.0004s2861.1|P._trifoliata.1_[TPR_repeat_protein_27] -> Ptrif.0004s2861.1|P._trifoliata.1__TPR_repeat_protein_27_
+Nycol.I01548.1|N._coloratab_[TPR_repeat_protein_27] -> Nycol.I01548.1|N._coloratab__TPR_repeat_protein_27_
+Lalb_Chr08g0237701|L._albus_v1_[Uncharacterized|TPR_repeat_protein_27] -> Lalb_Chr08g0237701|L._albus_v1__Uncharacterized|TPR_repeat_protein_27_
+Lj1g0005856.1|L._japonicus_[TPR_repeat_protein_27] -> Lj1g0005856.1|L._japonicus__TPR_repeat_protein_27_
+Caril.15G165800.1|C._illinoinensis_[TPR_repeat_8|TPR_repeat_11] -> Caril.15G165800.1|C._illinoinensis__TPR_repeat_8|TPR_repeat_11_
+Sp6g26960.1|S._parvula_[TPR_repeat_protein_27] -> Sp6g26960.1|S._parvula__TPR_repeat_protein_27_
+Spov3_chr5.02105|S._oleracea_Spov3_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Spov3_chr5.02105|S._oleracea_Spov3__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Phacu.CVR.009G197100.1|P._acutifolius_[TPRlike_helical_domain|TPR_repeatcontaining_domain|TPR_repeat] -> Phacu.CVR.009G197100.1|P._acutifolius__TPRlike_helical_domain|TPR_repeatcontaining_domain|TPR_repeat_
+Phacu.CVR.009G240000.1|P._acutifolius_[Uncharacterized_conserved_protein_contains_TPR_repeats] -> Phacu.CVR.009G240000.1|P._acutifolius__Uncharacterized_conserved_protein_contains_TPR_repeats_
+Pahal.2G117800.1|P._hallii_[TPR_repeat_protein_27] -> Pahal.2G117800.1|P._hallii__TPR_repeat_protein_27_
+Zosma06g09550.1|Z._marina_[TPR_repeat_protein_27] -> Zosma06g09550.1|Z._marina__TPR_repeat_protein_27_
+Manes.10G067101.1|M._esculenta_[Uncharacterized|TPR_repeat_protein_27] -> Manes.10G067101.1|M._esculenta__Uncharacterized|TPR_repeat_protein_27_
+FvH4_7g02460.t1|F._vesca_[TPR_repeat_11] -> FvH4_7g02460.t1|F._vesca__TPR_repeat_11_
+BPChr09G20515|B._platyphylla_[TPR_repeat_8|TPR_repeat_11] -> BPChr09G20515|B._platyphylla__TPR_repeat_8|TPR_repeat_11_
+BPChr05G14888|B._platyphylla_[TPR_repeat_protein_27] -> BPChr05G14888|B._platyphylla__TPR_repeat_protein_27_
+Solyc07g008760.4.1|S._lycopersicum_[Uncharacterized|TPR_repeat_protein_27] -> Solyc07g008760.4.1|S._lycopersicum__Uncharacterized|TPR_repeat_protein_27_
+
+                                                                                                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00011611 secs using 122.3% CPU
+   1  30171.m000412|R._communis__Uncharacterized_conserved_protein_contains_TPR_repeats_                           36.22%    passed     92.00%
+   2  Cucsa.073040.1|C._sativus__TPR_repeat_11_                                                                    35.86%    passed     87.69%
+   3  Thhalv10012633m|E._salsugineum__TPR_repeat_8_|TPR_repeat_11_                                                 35.79%    passed     94.39%
+   4  Lus10030019|L._usitatissimum__TPR_repeat_11_                                                                 34.79%    passed     95.50%
+   5  Lus10035305|L._usitatissimum__TPR_repeat_11_                                                                 34.93%    passed     99.12%
+   6  Thecc1EG033455t1|T._cacao__Uncharacterized_conserved_protein_contains_TPR_repeats_                           32.50%    passed     99.63%
+   7  Migut.N00455.1|M._guttatus__TPR_repeat_11_                                                                   36.29%    passed     99.93%
+   8  Bostr.2618s0063.1|B._stricta__TPR_repeat_8_|TPR_repeat_11_                                                   36.15%    passed     74.07%
+   9  Medtr3g098060.1|M._truncatula__TPR_repeat_11_                                                                35.15%    passed     94.97%
+  10  evm_27.model.AmTr_scaffold00041.101|A._trichopoda__TPR_repeat_11_                                            32.57%    passed     92.22%
+  11  Traes_4AS_E52C5D2A7.3|T._aestivum__Uncharacterized_conserved_protein_contains_TPR_repeats_                   36.08%    passed     22.62%
+  12  Traes_4BL_FE7B24AD71.4|T._aestivum__Uncharacterized_conserved_protein_contains_TPR_repeats_                  36.08%    passed     40.98%
+  13  Traes_4DL_0908335AA.1|T._aestivum__Uncharacterized_conserved_protein_contains_TPR_repeats_                   35.93%    passed     43.66%
+  14  Traes_7BL_4AFB62A41.2|T._aestivum__Uncharacterized_conserved_protein_contains_TPR_repeats_                   47.17%    passed     74.43%
+  15  Eucgr.H05055.1|E._grandis__Uncharacterized_conserved_protein_contains_TPR_repeats_                           49.18%    passed     91.02%
+  16  Prupe.2G030300.1|P._persica__TPR_repeat_11_                                                                  35.15%    passed     99.77%
+  17  Manes.10G067100.1|M._esculenta__Uncharacterized_conserved_protein_contains_TPR_repeats_                      52.04%    passed     79.51%
+  18  Seita.2G124700.1|S._italica__Uncharacterized_conserved_protein_contains_TPR_repeats_                         36.36%    passed     40.31%
+  19  Bradi1g28660.1|B._distachyon__Uncharacterized_conserved_protein_contains_TPR_repeats_                        36.36%    passed     90.43%
+  20  Pp3c1_12830V3.1|P._patens__Uncharacterized_conserved_protein_contains_TPR_repeats_                           34.22%    failed      3.60%
+  21  Aco024438.1|A._comosus_v3__Uncharacterized_conserved_protein_contains_TPR_repeats_                           33.93%    passed     59.28%
+  22  Aqcoe7G009700.1|A._coerulea__Uncharacterized_conserved_protein_contains_TPR_repeats_                         33.14%    passed     61.54%
+  23  LOC_Os07g27180.1|O._sativa__Uncharacterized_conserved_protein_contains_TPR_repeats_                          34.29%    passed     41.65%
+  24  Kaladp0047s0180.1|K._fedtschenkoi__TPR_repeat_11_                                                            30.78%    passed     99.91%
+  25  AL6G28350.t1|A._lyrata__TPR_repeat_8_|TPR_repeat_11_                                                         41.80%    passed     99.69%
+  26  AL6G28330.t1|A._lyrata__TPR_repeat_11_                                                                       36.15%    passed     79.80%
+  27  Tp57577_TGAC_v2_mRNA8069|T._pratense_v2__TPR_repeat_11_                                                      34.43%    passed     97.25%
+  28  Oropetium_20150105_13218A|O._thomaeum__Uncharacterized_conserved_protein_contains_TPR_repeats_               51.18%    passed     86.77%
+  29  DCAR_009033|D._carota__Uncharacterized_conserved_protein_contains_TPR_repeats_                               52.68%    passed     93.66%
+  30  Bol034441|B._oleraceacapitata__TPR_repeat_11_                                                                37.44%    passed     88.73%
+  31  Bol019814|B._oleraceacapitata__TPR_repeat_8_|TPR_repeat_11_                                                  35.86%    passed     74.05%
+  32  AT5G17270.1|A._thaliana_Araport11__TPR_repeat_8|TPR_repeat_11_                                               35.65%    passed     79.23%
+  33  AT5G37130.1|A._thaliana_Araport11__TPR_repeat_11_                                                            37.22%    passed     93.73%
+  34  Oeu006040.1|O._europaea__Uncharacterized_conserved_protein_contains_TPR_repeats_                             33.36%    passed     98.04%
+  35  Sobic.002G126800.1|S._bicolor.1__Uncharacterized_conserved_protein_contains_TPR_repeats_                     36.22%    passed     81.73%
+  36  VIT_207s0130g00120.1|V._vinifera__TPR_repeat_11_                                                             33.93%    passed     99.81%
+  37  HORVU4Hr1G052640.5|H._vulgare_r1__Uncharacterized_conserved_protein_contains_TPR_repeats_                    32.93%    passed     60.32%
+  38  Lsat_1_v5_gn_3_54960.1|L._sativa__Uncharacterized_conserved_protein_contains_TPR_repeats_                    41.02%    passed     93.32%
+  39  Carub.0006s1546.1|C._rubella__TPR_repeat_8|TPR_repeat_11_                                                    36.22%    passed     93.77%
+  40  Ca_04261|C._arietinum__TPR_repeat_11_                                                                        36.51%    passed     99.58%
+  41  Zm00001d005403_T001|Z._mays__Uncharacterized_conserved_protein_contains_TPR_repeats_                         36.22%    passed     43.10%
+  42  HanXRQChr15g0484541|H._annuus_r1.2__TPR_repeat_11_                                                           39.73%    passed     64.53%
+  43  Misin03G108500.1|M._sinensis__Uncharacterized_conserved_protein_contains_TPR_repeats_                        36.29%    passed     77.68%
+  44  Misin04G120600.1|M._sinensis__Uncharacterized_conserved_protein_contains_TPR_repeats_                        36.58%    passed     76.04%
+  45  evm.model.AsparagusV1_09.1487|A._officinalis_V1.1__Uncharacterized_conserved_protein_contains_TPR_repeats_   37.80%    passed     96.73%
+  46  Dioal.0082s0003.1|D._alata__Uncharacterized_conserved_protein_contains_TPR_repeats_                          36.15%    passed     64.48%
+  47  Cocit.F0485.1|C._citriodora__TPR_repeat_11_                                                                  31.85%    passed     59.22%
+  48  GlysoPI483463.04G164000.1|G._soja__TPR_repeat_11_                                                            34.93%    passed     99.07%
+  49  Pavir.2KG234200.4|P._virgatum__Uncharacterized_conserved_protein_contains_TPR_repeats_                       34.50%    passed     47.16%
+  50  Sapur.004G056600.1|S._purpurea__Uncharacterized|TPR_repeat_protein_27_                                       35.22%    passed     92.68%
+  51  Gobar.A01G100300.1|G._barbadense__TPR_repeat_11_                                                             34.93%    passed     99.65%
+  52  Gobar.D01G103800.1|G._barbadense__TPR_repeat_11_                                                             34.93%    passed     99.99%
+  53  arahy.Tifrunner.gnm1.ann1.4S33SI.1|A._hypogaea__Uncharacterized|TPR_repeat_protein_27_                       40.73%    passed     99.24%
+  54  arahy.Tifrunner.gnm1.ann1.RUK03S.1|A._hypogaea__Uncharacterized|TPR_repeat_protein_27_                       40.73%    passed     98.17%
+  55  Potri.004G080800.1|P._trichocarpa__Uncharacterized|TPR_repeat_protein_27_                                    34.72%    passed     87.38%
+  56  Vigun09g112500.1|V._unguiculata__TPR_repeat_11_                                                              35.36%    passed     99.39%
+  57  Vigun09g039000.1|V._unguiculata__Uncharacterized|TPR_repeat_protein_27_                                      36.94%    passed     99.18%
+  58  EL10Ac8g19353.1|B._vulgaris__TPR_repeat_11_                                                                  36.51%    passed     99.88%
+  59  Ptrif.0004s2861.1|P._trifoliata.1__TPR_repeat_protein_27_                                                    34.07%    passed     99.41%
+  60  Nycol.I01548.1|N._coloratab__TPR_repeat_protein_27_                                                          35.72%    passed     81.70%
+  61  Lalb_Chr08g0237701|L._albus_v1__Uncharacterized|TPR_repeat_protein_27_                                       34.36%    passed     92.28%
+  62  Lj1g0005856.1|L._japonicus__TPR_repeat_protein_27_                                                           34.14%    passed     99.47%
+  63  Caril.15G165800.1|C._illinoinensis__TPR_repeat_8|TPR_repeat_11_                                              32.28%    passed     84.71%
+  64  Sp6g26960.1|S._parvula__TPR_repeat_protein_27_                                                               35.65%    passed     94.08%
+  65  Spov3_chr5.02105|S._oleracea_Spov3__Uncharacterized_conserved_protein_contains_TPR_repeats_                  29.21%    passed     97.66%
+  66  Phacu.CVR.009G197100.1|P._acutifolius__TPRlike_helical_domain|TPR_repeatcontaining_domain|TPR_repeat_        35.72%    passed     99.86%
+  67  Phacu.CVR.009G240000.1|P._acutifolius__Uncharacterized_conserved_protein_contains_TPR_repeats_               37.51%    passed     92.88%
+  68  Pahal.2G117800.1|P._hallii__TPR_repeat_protein_27_                                                           36.22%    passed     65.79%
+  69  Zosma06g09550.1|Z._marina__TPR_repeat_protein_27_                                                            33.14%    passed     78.98%
+  70  Manes.10G067101.1|M._esculenta__Uncharacterized|TPR_repeat_protein_27_                                       34.07%    passed     98.96%
+  71  FvH4_7g02460.t1|F._vesca__TPR_repeat_11_                                                                     35.15%    passed     97.30%
+  72  BPChr09G20515|B._platyphylla__TPR_repeat_8|TPR_repeat_11_                                                    29.63%    passed     99.65%
+  73  BPChr05G14888|B._platyphylla__TPR_repeat_protein_27_                                                         29.63%    passed     99.65%
+  74  Solyc07g008760.4.1|S._lycopersicum__Uncharacterized|TPR_repeat_protein_27_                                   33.14%    passed     77.51%
+WARNING: 3 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                        36.32%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: BPChr05G14888|B._platyphylla__TPR_repeat_protein_27_ is identical to BPChr09G20515|B._platyphylla__TPR_repeat_8|TPR_repeat_11_ but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000717163 secs using 675.6% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.057 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 9.227 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -85451
+Threads: 2 / Time: 4.773 sec / Speedup: 1.933 / Efficiency: 97% / LogL: -85451
+Threads: 3 / Time: 3.367 sec / Speedup: 2.741 / Efficiency: 91% / LogL: -85451
+Threads: 4 / Time: 2.664 sec / Speedup: 3.463 / Efficiency: 87% / LogL: -85451
+Threads: 5 / Time: 2.726 sec / Speedup: 3.384 / Efficiency: 68% / LogL: -85451
+Threads: 6 / Time: 2.575 sec / Speedup: 3.583 / Efficiency: 60% / LogL: -85451
+Threads: 7 / Time: 2.637 sec / Speedup: 3.498 / Efficiency: 50% / LogL: -85451
+Determining AUTO threadcount: done in 27.996 secs using 313% CPU
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -56244.128
+Optimal log-likelihood: -56243.857
+Proportion of invariable sites: 0.049
+Gamma shape alpha: 1.048
+Parameters optimization took 1 rounds (0.204 sec)
+Time for fast ML tree search: 1.831 seconds
+
+NOTE: ModelFinder requires 146 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 1397 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            59440.808    145 119171.615   119205.460   119931.717
+  2  LG+I          58822.434    146 117936.867   117971.207   118702.212
+  3  LG+G4         56265.687    146 112823.373   112857.712   113588.717
+  4  LG+I+G4       56243.776    147 112781.552   112816.389   113552.138
+  5  LG+R2         56829.167    147 113952.335   113987.172   114722.921
+  6  LG+R3         56364.090    149 113026.180   113062.026   113807.250
+  7  LG+R4         56256.909    151 112815.817   112852.688   113607.372
+  8  LG+R5         56236.957    153 112779.915   112817.826   113581.953
+  9  LG+R6         56231.693    155 112773.387   112812.355   113585.909
+ 14  LG+I+R2       56679.464    148 113654.927   113690.267   114430.755
+ 15  LG+I+R3       56298.771    150 112897.543   112933.899   113683.855
+ 16  LG+I+R4       56240.745    152 112785.489   112822.878   113582.286
+ 17  LG+I+R5       56226.171    154 112760.342   112798.780   113567.622
+ 18  LG+I+R6       56223.335    156 112758.670   112798.173   113576.434
+ 26  LG+F+I+G4     56221.956    166 112775.913   112820.989   113646.099
+ 48  WAG+I+G4      56116.404    147 112526.808   112561.646   113297.394
+ 70  WAG+F+I+G4    56134.299    166 112600.598   112645.674   113470.784
+ 92  JTT+I+G4      55448.507    147 111191.014   111225.851   111961.600
+114  JTT+F+I+G4    55394.232    166 111120.464   111165.541   111990.650
+136  Q.PFAM+I+G4   56126.410    147 112546.820   112581.658   113317.407
+158  Q.PFAM+F+I+G4 56097.019    166 112526.038   112571.114   113396.223
+180  Q.BIRD+I+G4   55424.794    147 111143.588   111178.426   111914.174
+202  Q.BIRD+F+I+G4 55440.723    166 111213.445   111258.522   112083.631
+224  Q.MAMMAL+I+G4 55303.058    147 110900.117   110934.954   111670.703
+246  Q.MAMMAL+F+I+G4 55312.730    166 110957.460   111002.536   111827.646
+268  Q.INSECT+I+G4 55803.060    147 111900.120   111934.958   112670.707
+290  Q.INSECT+F+I+G4 55835.769    166 112003.539   112048.615   112873.724
+312  Q.PLANT+I+G4  55152.990    147 110599.980   110634.817   111370.566
+334  Q.PLANT+F+I+G4 55213.416    166 110758.831   110803.908   111629.017
+356  Q.YEAST+I+G4  56047.107    147 112388.214   112423.051   113158.800
+378  Q.YEAST+F+I+G4 56019.228    166 112370.456   112415.532   113240.642
+400  JTTDCMUT+I+G4 55462.620    147 111219.241   111254.078   111989.827
+422  JTTDCMUT+F+I+G4 55415.159    166 111162.319   111207.395   112032.504
+444  DCMUT+I+G4    56570.133    147 113434.265   113469.103   114204.851
+466  DCMUT+F+I+G4  56477.605    166 113287.210   113332.286   114157.396
+488  VT+I+G4       56180.091    147 112654.183   112689.020   113424.769
+510  VT+F+I+G4     56196.445    166 112724.890   112769.966   113595.075
+532  PMB+I+G4      56960.173    147 114214.346   114249.184   114984.932
+554  PMB+F+I+G4    57047.507    166 114427.014   114472.090   115297.200
+576  BLOSUM62+I+G4 57160.721    147 114615.442   114650.280   115386.028
+598  BLOSUM62+F+I+G4 57222.067    166 114776.134   114821.211   115646.320
+620  DAYHOFF+I+G4  56568.955    147 113431.909   113466.747   114202.495
+642  DAYHOFF+F+I+G4 56477.521    166 113287.043   113332.119   114157.228
+664  MTREV+I+G4    58384.156    147 117062.311   117097.149   117832.897
+686  MTREV+F+I+G4  56453.388    166 113238.776   113283.852   114108.961
+708  MTART+I+G4    59425.195    147 119144.390   119179.228   119914.977
+730  MTART+F+I+G4  57933.886    166 116199.772   116244.849   117069.958
+752  MTZOA+I+G4    58042.642    147 116379.283   116414.121   117149.869
+774  MTZOA+F+I+G4  57062.776    166 114457.551   114502.628   115327.737
+796  MTMET+I+G4    57754.745    147 115803.490   115838.327   116574.076
+818  MTMET+F+I+G4  56077.127    166 112486.254   112531.331   113356.440
+840  MTVER+I+G4    58019.992    147 116333.984   116368.821   117104.570
+862  MTVER+F+I+G4  56182.846    166 112697.693   112742.769   113567.878
+884  MTINV+I+G4    58226.742    147 116747.485   116782.322   117518.071
+906  MTINV+F+I+G4  56207.955    166 112747.910   112792.986   113618.095
+928  MTMAM+I+G4    59075.244    147 118444.488   118479.325   119215.074
+950  MTMAM+F+I+G4  56991.014    166 114314.028   114359.104   115184.213
+972  FLAVI+I+G4    56862.480    147 114018.960   114053.797   114789.546
+994  FLAVI+F+I+G4  56335.427    166 113002.853   113047.930   113873.039
+1016  HIVB+I+G4     56227.780    147 112749.559   112784.397   113520.145
+1038  HIVB+F+I+G4   55677.986    166 111687.973   111733.049   112558.158
+1060  HIVW+I+G4     58087.741    147 116469.481   116504.319   117240.067
+1082  HIVW+F+I+G4   56965.185    166 114262.369   114307.446   115132.555
+1104  FLU+I+G4      56514.122    147 113322.245   113357.082   114092.831
+1126  FLU+F+I+G4    56192.842    166 112717.685   112762.761   113587.871
+1148  RTREV+I+G4    57163.859    147 114621.718   114656.556   115392.304
+1170  RTREV+F+I+G4  56752.060    166 113836.120   113881.197   114706.306
+1192  CPREV+I+G4    56219.399    147 112732.799   112767.636   113503.385
+1214  CPREV+F+I+G4  56216.685    166 112765.370   112810.447   113635.556
+Akaike Information Criterion:           Q.PLANT+I+G4
+Corrected Akaike Information Criterion: Q.PLANT+I+G4
+Bayesian Information Criterion:         Q.PLANT+I+G4
+Best-fit model: Q.PLANT+I+G4 chosen according to BIC
+
+All model information printed to mafft_TPRs_v3.1.fas.model.gz
+CPU time for ModelFinder: 787.652 seconds (0h:13m:7s)
+Wall-clock time for ModelFinder: 203.515 seconds (0h:3m:23s)
+Generating 1000 samples for ultrafast bootstrap (seed: 627653)...
+
+NOTE: 61 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.080 / Estimate: 0.000, 0.846 / LogL: -55175.274
+Init pinv, alpha: 0.031, 1.080 / Estimate: 0.043, 1.013 / LogL: -55153.018
+Init pinv, alpha: 0.062, 1.080 / Estimate: 0.047, 1.024 / LogL: -55153.023
+Init pinv, alpha: 0.092, 1.080 / Estimate: 0.046, 1.023 / LogL: -55153.009
+Init pinv, alpha: 0.123, 1.080 / Estimate: 0.047, 1.024 / LogL: -55153.023
+Init pinv, alpha: 0.154, 1.080 / Estimate: 0.046, 1.022 / LogL: -55153.006
+Init pinv, alpha: 0.185, 1.080 / Estimate: 0.046, 1.023 / LogL: -55153.009
+Init pinv, alpha: 0.215, 1.080 / Estimate: 0.047, 1.023 / LogL: -55153.014
+Init pinv, alpha: 0.246, 1.080 / Estimate: 0.047, 1.023 / LogL: -55153.019
+Init pinv, alpha: 0.277, 1.080 / Estimate: 0.047, 1.024 / LogL: -55153.021
+Optimal pinv,alpha: 0.046, 1.022 / LogL: -55153.006
+
+Parameters optimization took 10.871 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.150565 secs using 399.5% CPU
+Computing ML distances took 0.150841 sec (of wall-clock time) 0.602221 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000110865 secs using 437.5% CPU
+Constructing RapidNJ tree: done in 0.0010941 secs using 328.5% CPU
+Computing RapidNJ tree took 0.001280 sec (of wall-clock time) 0.006178 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -55490.343
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.802 second
+Computing log-likelihood of 98 initial trees ... 6.446 seconds
+Current best score: -55153.006
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -55149.996
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -55148.657
+Iteration 10 / LogL: -55158.089 / Time: 0h:3m:54s
+Iteration 20 / LogL: -55149.322 / Time: 0h:4m:4s
+Finish initializing candidate tree set (8)
+Current best tree score: -55148.657 / CPU time: 29.504
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -55148.684 / Time: 0h:4m:16s (0h:2m:12s left)
+Iteration 40 / LogL: -55150.402 / Time: 0h:4m:30s (0h:1m:46s left)
+Iteration 50 / LogL: -55150.104 / Time: 0h:4m:43s (0h:1m:25s left)
+Log-likelihood cutoff on original alignment: -55205.594
+Iteration 60 / LogL: -55149.511 / Time: 0h:4m:57s (0h:1m:6s left)
+Iteration 70 / LogL: -55149.620 / Time: 0h:5m:10s (0h:0m:49s left)
+Iteration 80 / LogL: -55151.655 / Time: 0h:5m:22s (0h:0m:33s left)
+Iteration 90 / LogL: -55148.761 / Time: 0h:5m:35s (0h:0m:17s left)
+Iteration 100 / LogL: -55149.688 / Time: 0h:5m:48s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -55205.594
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:5m:52s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -55148.657
+Optimal log-likelihood: -55148.656
+Proportion of invariable sites: 0.045
+Gamma shape alpha: 1.024
+Parameters optimization took 1 rounds (0.212 sec)
+BEST SCORE FOUND : -55148.656
+Creating bootstrap support values...
+Split supports printed to NEXUS file mafft_TPRs_v3.1.fas.splits.nex
+Total tree length: 20.595
+
+Total number of iterations: 103
+CPU time used for tree search: 536.680 sec (0h:8m:56s)
+Wall-clock time used for tree search: 137.015 sec (0h:2m:17s)
+Total CPU time used: 1372.074 sec (0h:22m:52s)
+Total wall-clock time used: 352.443 sec (0h:5m:52s)
+
+Computing bootstrap consensus tree...
+Reading input file mafft_TPRs_v3.1.fas.splits.nex...
+74 taxa and 235 splits.
+Consensus tree written to mafft_TPRs_v3.1.fas.contree
+Reading input trees file mafft_TPRs_v3.1.fas.contree
+Log-likelihood of consensus tree: -55148.660
+
+Analysis results written to: 
+  IQ-TREE report:                mafft_TPRs_v3.1.fas.iqtree
+  Maximum-likelihood tree:       mafft_TPRs_v3.1.fas.treefile
+  Likelihood distances:          mafft_TPRs_v3.1.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          mafft_TPRs_v3.1.fas.splits.nex
+  Consensus tree:                mafft_TPRs_v3.1.fas.contree
+  Screen log file:               mafft_TPRs_v3.1.fas.log
+
+Date and Time: Fri Jul  3 14:23:21 2026
