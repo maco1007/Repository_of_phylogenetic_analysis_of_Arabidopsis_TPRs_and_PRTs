@@ -1,7 +1,5 @@
 Repository of phylogenetic analysis of Arabidopsis TPRs 
 
-Repository of phylogenetic analysis of Arabidopsis TPRs 
-
 Phylogenetic Analysis with IQ-TREE: TPR Protein Families This repository contains the input data and output results of a Maximum Likelihood phylogenetic inference performed using the IQ-TREE software. The analysis was based on a multiple sequence alignment of proteins containing tetratricopeptide repeats (TPRs).
 
 Analysis Details Program: IQ-TREE version 3.1.2
