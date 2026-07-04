@@ -54,3 +54,6 @@ iTOL - Interactive Tree of Life (Web-based, highly recommended for large trees)
 FigTree (Desktop software)
 
 Dendroscope (Desktop software)
+
+Authors: Claro K. L., García-Ponce B., Solano De la Cruz M
+
